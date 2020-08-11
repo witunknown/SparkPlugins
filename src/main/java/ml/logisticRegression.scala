@@ -32,6 +32,7 @@ object logisticRegression {
 
     val roc =trainingSummary.roc
     roc.show()
+    spark.stop()
   }
 
 }

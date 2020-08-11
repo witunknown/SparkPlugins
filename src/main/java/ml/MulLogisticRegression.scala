@@ -27,7 +27,7 @@ object MulLogisticRegression {
     trainingSummary.falsePositiveRateByLabel.zipWithIndex.foreach{case(rate,label)=>
           println(s"label $label: $rate")
     }
-    println("True positive rate by label:")
+          println("True positive rate by label:")
     trainingSummary.truePositiveRateByLabel.zipWithIndex.foreach { case (rate, label) =>
       println(s"label $label: $rate")
     }

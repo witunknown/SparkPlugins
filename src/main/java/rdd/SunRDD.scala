@@ -51,6 +51,8 @@ object MapManager{
     val rdd1=new SunRDD(sc).toJavaRDD();
     val rdd2=new SunRDD(sc).toJavaRDD();
     println(rdd1.union(rdd2).distinct().count())
+
+
     //10000
   }
 
